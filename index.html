@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animasyonlu Giriş Sayfası</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+        <span class="bg-animate"></span>
+        <span class="bg-animate2"></span>
+      <div class="form-box login">
+        <h2 class="animation" style="--i:0; --j:21;">Giriş Yap</h2>
+        <form action="#">
+          <div class="input-box animation" style="--i:1; --j:22;">
+            <input type="text" required />
+            <label>Kullanıcı Adını Giriniz</label>
+            <i class='bx bxs-user-rectangle'></i>
+          </div>
+          <div class="input-box animation" style="--i:2; --j:23;">
+            <input type="password" required />
+            <label>Şifrenizi Giriniz</label>
+            <i class='bx bxs-lock-open'></i>
+          </div>
+          <button type="submit" class="btn animation" style="--i:3; --j:24;">Giriş Yap</button>
+          <div class="logreg-link animation" style="--i:4; --j:25;">
+            <p>
+              Şifremi Unuttum.? <a href="#" class="register-link">Kayıt Ol</a>
+            </p>
+          </div>
+        </form>
+      </div>
+      <div class="info-text login">
+        <h2 class="animation" style="--i:0; --j:20;">Sayfaya Hoşgeldiniz.!</h2>
+        <p class="animation" style="--i:1; --j:21;">Eğer Kaydın Varsa Eğlenceyi Kaçırma Hemen Giriş Yap.</p>
+      </div>
+      <div class="form-box register">
+        <h2 class="animation" style="--i:17; --j:0;">Kayıt Ol</h2>
+        <form action="#">
+          <div class="input-box animation" style="--i:18; --j:1;">
+            <input type="text" required />
+            <label>Kullanıcı Adını Giriniz</label>
+            <i class='bx bxs-user-rectangle'></i>
+          </div>
+          <div class="input-box animation" style="--i:19; --j:2;">
+            <input type="text" required />
+            <label>Emailinizi Giriniz</label>
+            <i class='bx bxs-envelope'></i>
+          </div>
+          <div class="input-box animation" style="--i:20; --j:3;">
+            <input type="password" required />
+            <label>Şifrenizi Giriniz</label>
+            <i class='bx bxs-lock-open'></i>
+          </div>
+          <button type="submit" class="btn animation" style="--i:21; --j:4;">Kayıt Ol</button>
+          <div class="logreg-link animation" style="--i:22; --j:5;">
+            <p>
+              Eğlenceye Hazırmısın.!<a href="#" class="login-link">Haydi Giriş Yap</a>
+            </p>
+          </div>
+        </form>
+      </div>
+      <div class="info-text register">
+        <h2 class="animation" style="--i:17; --j:0;">Sayfaya Hoşgeldiniz.!</h2>
+        <p class="animation" style="--i:18; --j:1;">Eğlenceye Katılmak İstiyorsan Hemen Kayıt Ol..</p>
+      </div>
+    </div>
+    <script src="Furkan.js"></script>
+  </body>
+</html>
